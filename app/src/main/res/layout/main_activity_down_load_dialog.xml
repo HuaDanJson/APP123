@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/rvSelectGenderCustomDialog">
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="190dp"
+        android:orientation="vertical"
+        android:background="@drawable/news_notification_custom__dialog_bg"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/llAgreementTerms"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:clickable="true"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下载APK"
+                android:layout_marginTop="25dp"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textColor="@color/black56"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black12" />
+
+        <LinearLayout
+            android:id="@+id/llAgreementPrivacy"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:clickable="true"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="登陆网页版"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black56"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black12" />
+
+        <LinearLayout
+            android:id="@+id/llAgreementCancel"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="0dp"
+            android:clickable="true"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="取消"
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/black56"
+                android:layout_gravity="center_horizontal"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black12" />
+
+    </LinearLayout>
+
+</RelativeLayout>
